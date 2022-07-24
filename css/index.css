@@ -34,12 +34,13 @@ nav{
       font-size: 1.3em;
       padding: 1rem;
 }.item{
+      background-color: var(--azuloscuro);
       padding: 1rem;
 }nav a{
       color: var(--blanco);
       text-decoration: none;
 }.logo img{
-      height: 3rem;
+      height: 3rem;     
 }#features{
       background: url(../img/bg-features.png);
       color: white;
@@ -60,6 +61,7 @@ nav{
       margin: 0.8rem;
       padding: 1rem;
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
       border-radius: 5px;
@@ -70,4 +72,11 @@ nav{
       background-color: rgba(9, 53, 104, 0.493);
 }.feature-black{
       background-color: rgba(0, 0, 0, 0.699);
+}.logo{
+      background-color: var(--negro2);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem;
 }
+  
