@@ -1,0 +1,18 @@
+body{
+      margin: 0%;
+}
+nav{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: black;
+      font-family: 'Marcellus', serif;
+      font-size: 1.3em;
+      padding: 1rem;
+}a{
+      color: white;
+}.item{
+      padding: 1rem;
+}.logo img{
+      height: 3rem;
+}
