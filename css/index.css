@@ -152,22 +152,64 @@ nav{
  }.titulo{
       display: flex;
       justify-content: center;
-      background-color: black;
+      background-color: var(--negro);
       align-items: center;
       color: white;
       height: 7em;
  }.titulo h1{
       margin-bottom: 2%;
- }.carrusel {
+ }.footer-container{
+      background-color: var(--negro);
+      color: white;
+      padding: 2%;
+}
+.footer-container .text-footer{
       display: flex;
-      flex-flow: row wrap;
-  
- }.carrusel div{
-      width: 56%;
-      height: 40%;
-      color: black;
- }#op{
-   
-      background: url(/img/Group\ 200.svg);
- 
- }
+      justify-content: space-around;
+      align-items: center;
+      font-size: 1.2em;
+      height: 9rem;
+      
+}
+.text.t{
+      width: 25%;
+
+      
+}.icons{
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: column;
+      
+      
+}.icons div{
+      display:flex;
+      padding: 2%;
+      
+}.text t3 {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding: 2%;
+      
+      
+}#separador{
+      margin-top: 21%;
+}.red{
+      display: flex;
+      justify-content: space-between;
+      width: 35%;
+      padding: 2%;
+}.carrusel {
+      display: flex;
+      justify-content: space-around;
+     width: 100%;
+}.carrusel img{
+      border-radius: 50%;
+}#op{
+      background: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+      background-size: cover;
+      color: white;
+      width: 25%;
+      
+}
