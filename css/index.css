@@ -17,7 +17,7 @@
     margin:0;
 }
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Marcellus', serif;
     font-size: 16px;
 }
  
@@ -204,12 +204,24 @@ nav{
       display: flex;
       justify-content: space-around;
      width: 100%;
-}.carrusel img{
+     padding: 2%;
+}.nombre img{
       border-radius: 50%;
+      width: 20%;
+      height: 20%;
 }#op{
-      background: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
-      background-size: cover;
       color: white;
-      width: 25%;
-      
+      width: 20%;
+     
+       
+}.nombre{   
+      display: flex;
+      background-image: url(../img/Group\ 200.svg);
+      background-size: cover;
+      width: 100%;
+}.desc{
+      background: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+      padding: 1em;
+      z-index: -100%;
+      background: var(--degradado);
 }
