@@ -34,14 +34,21 @@ nav{
       font-size: 1.3em;
       padding: 1rem;
 }.item{
-      border-radius: 5%;
+      border-radius: 6%;
       background-color: #337AB7;
       padding: 0.5rem;
 }nav a{
       color: var(--blanco);
       text-decoration: none;
       padding: 1rem;
-}.logo img{
+      transition: .5s all ease;
+      
+}nav a:hover{
+      background-color:#0B3860;
+      width: 100%;
+}
+
+.logo img{
       height: 3rem;     
 }#features{
       background: url(../img/bg-features.png);
@@ -96,7 +103,7 @@ nav{
       background-color: rgba(29, 21, 21, 0.158);
       color: white;
       width: 100%;
-      height: 180px;
+      height: 300px;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -215,7 +222,7 @@ nav{
       background-size: cover;
 
 }.titulo{
-      font-size: 1.6em;
+      font-size: 1.7em;
       display: flex;
       justify-content: center;
       background-color: var(--negro);
@@ -233,7 +240,7 @@ nav{
       margin-top: -3%;
    margin-bottom: 3%;
    height: 100%;
-   width: 35em; 
+   width: 32em; 
    background: linear-gradient(49.54deg, #337AB7 6%, #0B3860 90.34%);
  }.enc img{
       padding: 2%;
@@ -243,3 +250,7 @@ nav{
       justify-content: center;
       padding: 3%;
  }
+/* Resoluciòn Movile*/
+@media screen and (min-width: 728px) {
+      
+}
