@@ -10,7 +10,7 @@
 <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_234_285"/>
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_234_285" result="shape"/>
 </filter>
-<linearGradient id="paint0_linear_234_285" x1="84.5867" y1="197" x2="151.802" y2="-263.377" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint0_linear_234_285" x1="84.5867" y1="197" x2="600" y2="-263.377" gradientUnits="userSpaceOnUse">
 <stop stop-color="#337AB7"/>
 <stop offset="0.705014" stop-color="#0B3860"/>
 </linearGradient>
