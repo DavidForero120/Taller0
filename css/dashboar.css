@@ -81,7 +81,7 @@ a{
 }/*  datos izquierda*/
 .datos{
       height: 1007px;
-      background: url();
+      background: url(/img/fondo.jpg);
       background-size: cover;
       flex: 7 1 auto;
       }
