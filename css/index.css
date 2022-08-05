@@ -327,10 +327,7 @@ nav{
             text-decoration: none;
             text-align: center;
         }
-        nav a:hover{
-            background-color: #0B3860;
-            width: 100%;
-        }
+        
         .menu button{
             padding: 1rem;
             background-color:transparent;
@@ -346,8 +343,9 @@ nav{
             padding: 1%;
             background-color: #000;            
         }.menu{
-            display: none;
             width: 100%;
+            display: none;
+            
         }#hijo{
             display: none;
         }#hijo1{
@@ -392,7 +390,13 @@ nav{
             font-size: 0.9em;
         }.opiniones{
             overflow: hidden;
-        }   .menu{
+        } 
+        nav a:hover{
+            background-color: #0B3860;
+            width: 100%;
+        }nav:hover .menu{
             display: flex;
+           
+      
         }
 }
