@@ -419,15 +419,11 @@ nav{
             font-size: 0.8em;
         }.opiniones{
             overflow: hidden;
-        } 
-        nav a:hover{
-            background-color: #0B3860;
-            width: 100%;
-        }nav:hover .menu{
-            display: flex;
-           
-      
-        }.mapa{
+        } .menu.active{
+            display: grid;
+            transform: translateY(0%);
+        }
+        .mapa{
             padding: 0.5em;
         }.enc{
             width: 100%;
