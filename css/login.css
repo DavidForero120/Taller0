@@ -20,7 +20,7 @@
 }
 body
 {
-    background: url(img/habitacion.jpeg) no-repeat;
+    background: url(../img/habitacion.jpeg) no-repeat;
     background-size: cover;
     color: white;
     padding-top: 8rem;
@@ -31,7 +31,7 @@ section
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: url(img/login.jpeg) no-repeat;
+    background: url(../img/login.jpeg) no-repeat;
     opacity: 0.82;
     width: 314px;
     height: 100%;
