@@ -57,7 +57,7 @@ nav{
       height: 3.6rem;  
       width: 100%;   
 }#features{
-      background: url(img/bg-features.png);
+      background: url(../img/bg-features.png);
       background-size: cover;
       color: white;
       padding-top: 1rem;
@@ -230,7 +230,7 @@ nav{
       height: 100%;
       display: flex;
       justify-content: flex-start;
-      background: url(img/Group\ 200.svg);
+      background: url(../img/Group\ 200.svg);
       background-size: cover;
 
 }.titulo{
